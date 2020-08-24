@@ -30,6 +30,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
+//test
+
 var bindAddress = env.String("BIND_ADDRESS", false, ":5113", "Bind address for the server")
 
 func main() {
